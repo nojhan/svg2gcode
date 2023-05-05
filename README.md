@@ -5,6 +5,8 @@
 svg2gcode reads an SVG file and produces g-code machining operations
 from the paths in it.
 
+So far, it only supports operating on closed paths.
+
 Supported operations are:
 
 * engraving (follow the path from the SVG)
